@@ -1,0 +1,83 @@
+* {
+    font-family: monospace;
+}
+
+table {
+    background-color: black;
+}
+
+form {
+    margin: 0;
+}
+
+
+body {
+  width: 19,1%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    border: 3px solid #008B8B;
+    border-radius: 8px;
+}
+
+
+#visor {
+  width: 209px;
+    height: 90px;
+    padding-right: 6px;
+    text-align: right;
+
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    outline: none;
+    
+    border-radius: 8px;
+    border: 1px solid #008B8B;
+    background-color: black;
+}
+
+
+form fieldset {
+   background-color: black;
+   border: black;
+}
+
+form input {
+   width: 100%;
+   border: solid #008B8B 1px;
+   font-size: 11px;
+   margin-bottom: 10px;
+   color: white;
+   background-color: black;
+}
+
+form input.num, .oper{
+   appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	padding: 0;
+    width: 52px;
+    height: 50px;
+
+    font-size: 22px;
+    margin: 2;
+    color: white;
+
+    border: 1px solid #008B8B;
+    border-radius: 8px;
+    outline: none;
+    background-color: black;
+
+    transition: 400ms;
+}
+
+.num:hover, .oper:hover {
+    cursor: pointer;
+    background-color: #008B8B;
+}
